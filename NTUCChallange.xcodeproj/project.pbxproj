@@ -3,27 +3,47 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A3D6252536E97C232EA25919 /* Pods_NTUCChallange.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2ADD0EBD60CE8901EE8A249 /* Pods_NTUCChallange.framework */; };
+		B02998E72691BCD7009E5896 /* UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02998E62691BCD7009E5896 /* UILabel.swift */; };
+		B02998E92691BD45009E5896 /* dummydata.json in Resources */ = {isa = PBXBuildFile; fileRef = B02998E82691BD45009E5896 /* dummydata.json */; };
 		B0ECF660268F034600E3FCD4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0ECF65F268F034600E3FCD4 /* AppDelegate.swift */; };
 		B0ECF662268F034600E3FCD4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0ECF661268F034600E3FCD4 /* SceneDelegate.swift */; };
-		B0ECF664268F034600E3FCD4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0ECF663268F034600E3FCD4 /* ViewController.swift */; };
+		B0ECF664268F034600E3FCD4 /* CarouselController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0ECF663268F034600E3FCD4 /* CarouselController.swift */; };
 		B0ECF667268F034600E3FCD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0ECF665268F034600E3FCD4 /* Main.storyboard */; };
 		B0ECF669268F034700E3FCD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0ECF668268F034700E3FCD4 /* Assets.xcassets */; };
 		B0ECF66C268F034700E3FCD4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0ECF66A268F034700E3FCD4 /* LaunchScreen.storyboard */; };
+		B0EF301D26917A5300FBDB5D /* ListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0EF301C26917A5300FBDB5D /* ListController.swift */; };
+		B0EF30202691AFD800FBDB5D /* CourseViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0EF301F2691AFD800FBDB5D /* CourseViewCell.swift */; };
+		B0EF30232691AFFD00FBDB5D /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0EF30222691AFFD00FBDB5D /* Timeline.swift */; };
+		B0EF30252691B01500FBDB5D /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0EF30242691B01500FBDB5D /* Course.swift */; };
+		B0EF30272691B07C00FBDB5D /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0EF30262691B07C00FBDB5D /* CollectionViewCell.swift */; };
+		B0EF302B2691B11A00FBDB5D /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0EF302A2691B11A00FBDB5D /* HomeController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		87B916FAEB9D24C4AE248C2A /* Pods-NTUCChallange.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NTUCChallange.debug.xcconfig"; path = "Target Support Files/Pods-NTUCChallange/Pods-NTUCChallange.debug.xcconfig"; sourceTree = "<group>"; };
+		B02998E62691BCD7009E5896 /* UILabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabel.swift; sourceTree = "<group>"; };
+		B02998E82691BD45009E5896 /* dummydata.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = dummydata.json; sourceTree = "<group>"; };
 		B0ECF65C268F034600E3FCD4 /* NTUCChallange.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NTUCChallange.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0ECF65F268F034600E3FCD4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B0ECF661268F034600E3FCD4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B0ECF663268F034600E3FCD4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B0ECF663268F034600E3FCD4 /* CarouselController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselController.swift; sourceTree = "<group>"; };
 		B0ECF666268F034600E3FCD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B0ECF668268F034700E3FCD4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B0ECF66B268F034700E3FCD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B0ECF66D268F034700E3FCD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0EF301C26917A5300FBDB5D /* ListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListController.swift; sourceTree = "<group>"; };
+		B0EF301F2691AFD800FBDB5D /* CourseViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseViewCell.swift; sourceTree = "<group>"; };
+		B0EF30222691AFFD00FBDB5D /* Timeline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timeline.swift; sourceTree = "<group>"; };
+		B0EF30242691B01500FBDB5D /* Course.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
+		B0EF30262691B07C00FBDB5D /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		B0EF302A2691B11A00FBDB5D /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		B2ADD0EBD60CE8901EE8A249 /* Pods_NTUCChallange.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NTUCChallange.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9B623782974C7485A9453B6 /* Pods-NTUCChallange.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NTUCChallange.release.xcconfig"; path = "Target Support Files/Pods-NTUCChallange/Pods-NTUCChallange.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +51,45 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3D6252536E97C232EA25919 /* Pods_NTUCChallange.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		32E5EF52B9E3D2467151B68B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B2ADD0EBD60CE8901EE8A249 /* Pods_NTUCChallange.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		74538657536CD39DDDEE4C71 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				87B916FAEB9D24C4AE248C2A /* Pods-NTUCChallange.debug.xcconfig */,
+				C9B623782974C7485A9453B6 /* Pods-NTUCChallange.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B02998E52691BCC9009E5896 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				B02998E62691BCD7009E5896 /* UILabel.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		B0ECF653268F034600E3FCD4 = {
 			isa = PBXGroup;
 			children = (
 				B0ECF65E268F034600E3FCD4 /* NTUCChallange */,
 				B0ECF65D268F034600E3FCD4 /* Products */,
+				74538657536CD39DDDEE4C71 /* Pods */,
+				32E5EF52B9E3D2467151B68B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +104,55 @@
 		B0ECF65E268F034600E3FCD4 /* NTUCChallange */ = {
 			isa = PBXGroup;
 			children = (
-				B0ECF65F268F034600E3FCD4 /* AppDelegate.swift */,
-				B0ECF661268F034600E3FCD4 /* SceneDelegate.swift */,
-				B0ECF663268F034600E3FCD4 /* ViewController.swift */,
-				B0ECF665268F034600E3FCD4 /* Main.storyboard */,
-				B0ECF668268F034700E3FCD4 /* Assets.xcassets */,
-				B0ECF66A268F034700E3FCD4 /* LaunchScreen.storyboard */,
+				B0EF30212691AFF100FBDB5D /* Model */,
+				B0EF301E2691AFC900FBDB5D /* View */,
+				B0EF30292691B10700FBDB5D /* Controller */,
+				B02998E52691BCC9009E5896 /* Extension */,
+				B0EF30282691B0DC00FBDB5D /* Resources */,
 				B0ECF66D268F034700E3FCD4 /* Info.plist */,
 			);
 			path = NTUCChallange;
+			sourceTree = "<group>";
+		};
+		B0EF301E2691AFC900FBDB5D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B0EF301F2691AFD800FBDB5D /* CourseViewCell.swift */,
+				B0EF30262691B07C00FBDB5D /* CollectionViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B0EF30212691AFF100FBDB5D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B0EF30222691AFFD00FBDB5D /* Timeline.swift */,
+				B0EF30242691B01500FBDB5D /* Course.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B0EF30282691B0DC00FBDB5D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B02998E82691BD45009E5896 /* dummydata.json */,
+				B0ECF65F268F034600E3FCD4 /* AppDelegate.swift */,
+				B0ECF661268F034600E3FCD4 /* SceneDelegate.swift */,
+				B0ECF665268F034600E3FCD4 /* Main.storyboard */,
+				B0ECF668268F034700E3FCD4 /* Assets.xcassets */,
+				B0ECF66A268F034700E3FCD4 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B0EF30292691B10700FBDB5D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B0ECF663268F034600E3FCD4 /* CarouselController.swift */,
+				B0EF301C26917A5300FBDB5D /* ListController.swift */,
+				B0EF302A2691B11A00FBDB5D /* HomeController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +162,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B0ECF670268F034700E3FCD4 /* Build configuration list for PBXNativeTarget "NTUCChallange" */;
 			buildPhases = (
+				3A3BDC02986F784875CB4AC0 /* [CP] Check Pods Manifest.lock */,
 				B0ECF658268F034600E3FCD4 /* Sources */,
 				B0ECF659268F034600E3FCD4 /* Frameworks */,
 				B0ECF65A268F034600E3FCD4 /* Resources */,
+				04A593A167A2235AB909708F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,6 +214,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B02998E92691BD45009E5896 /* dummydata.json in Resources */,
 				B0ECF66C268F034700E3FCD4 /* LaunchScreen.storyboard in Resources */,
 				B0ECF669268F034700E3FCD4 /* Assets.xcassets in Resources */,
 				B0ECF667268F034600E3FCD4 /* Main.storyboard in Resources */,
@@ -132,14 +223,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		04A593A167A2235AB909708F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NTUCChallange/Pods-NTUCChallange-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NTUCChallange/Pods-NTUCChallange-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NTUCChallange/Pods-NTUCChallange-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3A3BDC02986F784875CB4AC0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NTUCChallange-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B0ECF658268F034600E3FCD4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0ECF664268F034600E3FCD4 /* ViewController.swift in Sources */,
+				B02998E72691BCD7009E5896 /* UILabel.swift in Sources */,
+				B0EF30232691AFFD00FBDB5D /* Timeline.swift in Sources */,
+				B0EF30252691B01500FBDB5D /* Course.swift in Sources */,
+				B0EF30272691B07C00FBDB5D /* CollectionViewCell.swift in Sources */,
+				B0ECF664268F034600E3FCD4 /* CarouselController.swift in Sources */,
 				B0ECF660268F034600E3FCD4 /* AppDelegate.swift in Sources */,
+				B0EF302B2691B11A00FBDB5D /* HomeController.swift in Sources */,
 				B0ECF662268F034600E3FCD4 /* SceneDelegate.swift in Sources */,
+				B0EF301D26917A5300FBDB5D /* ListController.swift in Sources */,
+				B0EF30202691AFD800FBDB5D /* CourseViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +423,7 @@
 		};
 		B0ECF671268F034700E3FCD4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87B916FAEB9D24C4AE248C2A /* Pods-NTUCChallange.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +443,7 @@
 		};
 		B0ECF672268F034700E3FCD4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9B623782974C7485A9453B6 /* Pods-NTUCChallange.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
