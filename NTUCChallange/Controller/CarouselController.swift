@@ -33,7 +33,7 @@ class CarouselController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-    
+        view.backgroundColor = .white
         view.addSubview(collectionView)
         collectionView.backgroundColor = .white
         collectionView.anchor(view.safeAreaLayoutGuide.topAnchor, left: view.leftAnchor, bottom: nil, right: view.rightAnchor, topConstant: 10, leftConstant: 0, bottomConstant: 0, rightConstant: 0, widthConstant: 0, heightConstant: 150)
